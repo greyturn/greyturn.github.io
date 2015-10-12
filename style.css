@@ -1,0 +1,40 @@
+body {
+    background-color: #E6E6E6;
+}
+
+.header {
+    background-color: #303030;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin: -10px;
+    z-index: ;
+}
+
+.header li{
+    font-family: 'Francois One', sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    color: #F0F0F0;
+    display: inline;
+}
+
+.header li img {
+    width:70px;
+    height:70px;
+    border-radius: 5px;
+}
+
+.header li a {
+    text-decoration: none;
+    color: #B8B8B8
+}
+
+.header li a:hover {
+    color: #33D6FF;
+}
+
+.content {
+    background-color: #606060;
+    position: absolute;
+    z-index: 0;
+}
