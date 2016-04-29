@@ -40,11 +40,14 @@ body {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
 }
 
 #pageNotes {
     text-align: center;
+    vertical-align: middle;
     color: #FFFEFC;
 }

@@ -2,12 +2,20 @@ body {
     background-color: #515B5E;
 }
 
+iframe {
+   height: 700px;
+   width: 700px;
+}
+
 .header {
     background-color: #303030;
     padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     margin: -10px;
     z-index: ;
+    display: block;
+    text-align: center;
+    box-shadow: 0px 8px 10px #111111;
 }
 
 .header li{
@@ -16,6 +24,7 @@ body {
     font-size: 150%;
     color: #F0F0F0;
     display: inline;
+    
 }
 
 .header li img {
@@ -26,7 +35,7 @@ body {
 
 .header li a {
     text-decoration: none;
-    color: #B8B8B8
+    color: #B8B8B8;
 }
 
 .header li a:hover {
@@ -38,3 +47,20 @@ body {
     position: absolute;
     z-index: 0;
 }
+
+.footer {
+    position : absolute;
+    bottom : 0;
+    margin-top : 40px;
+
+}
+
+#pageNotes {
+    color: #FFFEFC;
+}
+
+#resume {
+   width: 50%; margin: 0 auto;
+    
+}
+
