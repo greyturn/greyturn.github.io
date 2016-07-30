@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <!--This site is hosted at greyturn.github.io-->
 
-<html>
+<html lang="en">
 
 <head>
-	<link rel='stylesheet' href='../Stylesheets/style.css'/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+    <!-- Bootstrap -->
+    <link href="../Bootstrap/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel='stylesheet' href='../Stylesheets/style.css'/>
+
+    <title>Graeme Turney</title>
 </head>
 
 <body>
 
-	<div class="header">
-		<div class="navbar">
-        	<ul>
-                <li> <a href="../index.html">Home</a> </li>
-                <li> | </li>
-            	<li> <a href="./aboutme.html">About Me</a> </li>
-            	<li> | </li>
-            	<li> <a href="./myprojects.html">My Projects</a> </li>
-            	<li> | </li>
-            	<li> <a href="./resume.html">Resume</a> </li>
-        	</ul>
-    	</div>
-    </div>
+	<nav class="navbar navbar-inverse navbar-fixed-top center">
+        <div class="container-fluid"> 
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="navbar-inner">
+                    <ul class="nav navbar-nav">
+                        <li> <a href="../index.html">Home</a> </li>
+                        <li class="active"> <a href="./aboutme.html">About Me</a> </li>
+                        <li> <a href="./myprojects.html">My Projects</a> </li>
+                        <li> <a href="./resume.html">Resume</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <div class="indexContent">
 
@@ -34,6 +45,9 @@
          </div>
 
     </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 </body>
 

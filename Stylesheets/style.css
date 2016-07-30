@@ -1,5 +1,6 @@
 body {
     background-color: #515B5E;
+    padding-top: 50px; 
 }
 
 iframe {
@@ -106,3 +107,22 @@ iframe {
 .aProject {
     padding-bottom: 20px;
 }
+
+
+/*Bootstrap adjustments*/
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar{
+    box-shadow: 0px 5px 15px #111111;
+}
+
+/*End of Bootstrap adjustments*/
