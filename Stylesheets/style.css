@@ -108,6 +108,11 @@ iframe {
     padding-bottom: 20px;
 }
 
+.bg-4 {
+    /*background-color: #2f2f2f;*/
+    color: #ffffff;
+}
+
 
 /*Bootstrap adjustments*/
 
@@ -123,6 +128,10 @@ iframe {
 
 .navbar{
     box-shadow: 0px 5px 15px #111111;
+}
+
+.navbar-nav li a:hover {
+    color: #33D6FF !important;
 }
 
 /*End of Bootstrap adjustments*/

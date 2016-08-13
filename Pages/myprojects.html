@@ -6,10 +6,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel='stylesheet' href='../Stylesheets/style.css'/>
-
+    
     <!-- Bootstrap -->
     <link href="../Bootstrap/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Custom CSS -->
     <link rel='stylesheet' href='../Stylesheets/style.css'/>
@@ -19,59 +22,68 @@
 
 <body>
 
-	<nav class="navbar navbar-inverse navbar-fixed-top center">
-        <div class="container-fluid"> 
-            <div id="myNavbar">
-                <div class="navbar-inner">
-                    <ul class="nav navbar-nav">
-                        <li> <a href="../index.html">Home</a> </li>
-                        <li> <a href="./aboutme.html">About Me</a> </li>
-                        <li class="active"> <a href="./myprojects.html">My Projects</a> </li>
-                        <li> <a href="./resume.html">Resume</a> </li>
-                    </ul>
+	<div class="container-fluid">
+        <nav class="navbar navbar-inverse navbar-fixed-top center">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <div class="navbar-inner">
+                        <ul class="nav navbar-nav">
+                            <li> <a href="../index.html">Home</a> </li>
+                            <li> <a href="./aboutme.html">About Me</a> </li>
+                            <li class="active"> <a href="./myprojects.html">My Projects</a> </li>
+                            <li> <a href="./resume.html">Resume</a> </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid">
+        <div class="indexContent">
+
+            <h1>My Projects</h1>
+
+            <div id="projectList">
+                <div class="aProject">
+                    <div>
+                        <a href="https://github.com/greyturn/greyturn.github.io">Personal Website</a>
+                    </div>
+                </div>
+
+                <div class="aProject"> 
+                    <div>   
+                        <a href="https://github.com/greyturn/CurlingSimulator">Command Line Curling Simulator</a>
+                    </div>
+
+                    <div>
+                        <img src="../Content/commandline.PNG" alt="Command Line" style="width:60%; height:60%;">
+                    </div>
+                </div>
+
+                <div class="aProject">
+                    <div>
+                        <a href="https://github.com/greyturn/Project-Twinscreen-Flash-Software-Prototype">3DS Turn Based RPG UI Prototype</a>
+                    </div>
+                </div>
+            </div> 
         </div>
-    </nav>
+    </div>
 
-    <div class="indexContent">
-
-        <h1>My Projects</h1>
-
-        <div id="projectList">
-            <div class="aProject">
-                <div>
-                    <a href="https://github.com/greyturn/greyturn.github.io">Personal Website</a>
-                </div>
-            </div>
-
-            <div class="aProject"> 
-                <div>   
-                    <a href="https://github.com/greyturn/CurlingSimulator">Command Line Curling Simulator</a>
-                </div>
-
-                <div>
-                    <img src="../Content/commandline.PNG" alt="Command Line" style="width:60%; height:60%;">
-                </div>
-            <div>
-
-            <div class="aProject">
-                <div>
-                    <a href="https://github.com/greyturn/Project-Twinscreen-Flash-Software-Prototype">3DS Turn Based RPG UI Prototype</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer">
+    <div class="container-fluid bg-4 text-center">
+        <div class="footer">     
             <div id="pagenotes">
                 <p>This page is hosted with GitHub Pages. ~ 2016</p>
             </div>
-         </div>
-
+        </div>
     </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 </body>
 
