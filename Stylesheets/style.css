@@ -1,6 +1,5 @@
 body {
     background-color: #515B5E;
-    padding-top: 50px; 
 }
 
 iframe {
@@ -8,7 +7,7 @@ iframe {
    width: 700px;
 }
 
-.header {
+/*.header {
     background-color: #303030;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -43,17 +42,18 @@ iframe {
 .header li a:hover {
     color: #33D6FF;
 }
-
-.content {
+*/
+/*.content {
     background-color: #606060;
     position: absolute;
     z-index: 1;
 }
 
 .footer {
-    position : relative;
-    bottom : 0;
+
     margin-top : 40px;
+    background-color: #111111;
+    color: #ffffff;
 
 }
 
@@ -67,32 +67,53 @@ iframe {
    z-index: 10;
     
 }
+*/
 
 .indexContent {
-    text-align: center;
-    background-color: #989898;
-    width: 70%;
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    z-index: 2;
-    position: relative;
-    box-shadow: -1px 1px 10px #111111;
+    background-image: url("../Content/me.jpg");
+    height: 1080px;
+
 }
 
 .indexContent h1 {
-    color: white;
-    font-size: 50px;
-    font-family: 'Francois One', sans-serif;
+    padding-top: 30px;
+    color: black;
+    font-size: 55px;
+    font-family: 'Comfortaa', cursive;
+
 }
 
 .indexContent h2 {
-    color: white;
-    font-size: 25px;
-    font-family: 'Francois One', sans-serif;
+    color: black;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
 }
 
-#projectList a {
+.topper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.topper h1 {
+    font-size: 55px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.row1 {
+    background-color: white;
+}
+
+.row2 {
+    background-color: gray;
+}
+
+.row3 {
+    background-color: silver;
+}
+
+/*#projectList a {
     font-size: 30px;
     text-decoration: none;
     color: white;
@@ -107,21 +128,23 @@ iframe {
 .aProject {
     padding-bottom: 20px;
 }
-
-.bg-4 {
-    /*background-color: #2f2f2f;*/
-    color: #ffffff;
-}
-
+*/
 
 /*Bootstrap adjustments*/
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+}
 
 .navbar.center .navbar-inner {
     text-align: center;
 }
 
 .navbar.center .navbar-inner .nav {
-    display:inline-block;
+    display: inline-block;
     float: none;
     vertical-align: top;
 }
@@ -132,6 +155,11 @@ iframe {
 
 .navbar-nav li a:hover {
     color: #33D6FF !important;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding-top: 50px;
 }
 
 /*End of Bootstrap adjustments*/
