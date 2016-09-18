@@ -70,22 +70,25 @@ iframe {
 */
 
 .indexContent {
-    background-image: url("../Content/me.jpg");
-    height: 1080px;
 
+    background-image: url("../Content/me.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;    
+    height: 1080px;
 }
 
 .indexContent h1 {
-    padding-top: 30px;
+    padding-top: 1.5%;
     color: black;
-    font-size: 55px;
+    font-size: 5vw;
     font-family: 'Comfortaa', cursive;
 
 }
 
 .indexContent h2 {
     color: black;
-    font-size: 30px;
+    font-size: 2.8vw;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -97,7 +100,7 @@ iframe {
 }
 
 .topper h1 {
-    font-size: 55px;
+    font-size: 5vw;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -111,6 +114,16 @@ iframe {
 
 .row3 {
     background-color: silver;
+}
+
+.myProjects {
+    text-align: center;
+}
+
+.myResume {
+
+    text-align: center;
+
 }
 
 /*#projectList a {
