@@ -120,16 +120,25 @@ iframe {
     text-align: center;
 }
 
-.myResume {
-
-    text-align: center;
-
+.myProjects h1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Comfortaa', cursive;
 }
 
-/*#projectList a {
-    font-size: 30px;
+.myResume {
+    text-align: center;
+}
+
+.myResume h1{
+    padding-top: 3vw;
+    font-family: 'Comfortaa', cursive;
+}
+
+#projectList a {
+    font-size: 3vw;
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'Francois One', sans-serif;
 
 }
@@ -141,7 +150,7 @@ iframe {
 .aProject {
     padding-bottom: 20px;
 }
-*/
+
 
 /*Bootstrap adjustments*/
 .navbar {
