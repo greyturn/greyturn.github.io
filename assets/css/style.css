@@ -405,6 +405,14 @@ textarea.form-control {
 	margin: 0 0 20px;
 }
 
+.iconbox-gray {
+	background: #f3f7f5;
+	border-bottom: 1px solid #d4d4d4;
+	text-align: center;
+	padding: 40px 20px;
+	margin: 0 0 20px;
+}
+
 .iconbox-icon {
 	margin: 0 0 15px;
 	font-size: 32px;
